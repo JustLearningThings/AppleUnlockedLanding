@@ -408,8 +408,8 @@ nav .nav-links-mobile ul li {
 }
 
 #contacts-right {
-	width: 12.5%;
-	min-width: 125px;
+	width: 8.25%;
+	min-width: 80px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -608,7 +608,7 @@ nav .nav-links-mobile ul li {
 	}
 
 	#contacts-right {
-		width: 7.5%;
-		min-width: 100px;
+		width: 5%;
+		min-width: 65px;
 	}
 }
