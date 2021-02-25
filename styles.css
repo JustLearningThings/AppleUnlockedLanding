@@ -107,12 +107,13 @@ nav ul .active {
 }
 
 .nav-links-mobile {
-	height: 92.5vh;
 	position: absolute;
 	top: 7.45vh;
 	left: 0;
 	background-color: whitesmoke;
 	width: 100vw;
+	height: 0;
+	animation: nav-links-mobile-appear .3s ease forwards;
 }
 
 .nav-links-mobile ul {
@@ -425,6 +426,11 @@ nav .nav-links-mobile ul li {
 	}
 	80% { transform: translateX(0);  }
 	100% { opacity: initial; }
+}
+
+@keyframes nav-links-mobile-appear {
+	from { height: 0; }
+	to { height: 92.5vh; }
 }
 
 @media screen and (max-width: 1200px) {
