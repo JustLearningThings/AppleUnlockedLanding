@@ -58,6 +58,9 @@ nav {
 	padding: 1% 2%;
 	opacity: 0;
 	animation: fade-appear 1s ease forwards;
+	-webkit-animation: fade-appear 1s ease forwards;
+	-moz-animation: fade-appear 1s ease forwards;
+	-o-animation: fade-appear 1s ease forwards;
 	transition: background-color .25s ease;
 }
 
@@ -114,6 +117,9 @@ nav ul .active {
 	width: 100vw;
 	height: 0;
 	animation: nav-links-mobile-appear .3s ease forwards;
+	-webkit-animation: nav-links-mobile-appear .3s ease forwards;
+	-moz-animation: nav-links-mobile-appear .3s ease forwards;
+	-o-animation: nav-links-mobile-appear .3s ease forwards;
 }
 
 .nav-links-mobile ul {
@@ -191,6 +197,9 @@ nav .nav-links-mobile ul li {
 
 #hero-main-content {
 	animation: appear-from-left 1.25s ease forwards;
+	-webkit-animation: appear-from-left 1.25s ease forwards;
+	-moz-animation: appear-from-left 1.25s ease forwards;
+	-o-animation: appear-from-left 1.25s ease forwards;
 }
 
 #call-to-action-btns #cta-prices {
@@ -236,6 +245,9 @@ nav .nav-links-mobile ul li {
 	align-items: center;
 	opacity: 0;
 	animation: fade-appear 1s .75s ease forwards;
+	-webkit-animation: fade-appear 1s .75s ease forwards;
+	-moz-animation: fade-appear 1s .75s ease forwards;
+	-o-animation: fade-appear 1s .75s ease forwards;
 }
 
 #hero-secondary-content img {
@@ -418,6 +430,18 @@ nav .nav-links-mobile ul li {
 	from { opacity: 0;  }
 	to { opacity: 1;  }
 }
+@-webkit-keyframes fade-appear {
+	from { opacity: 0;  }
+	to { opacity: 1;  }
+}
+@-moz-keyframes fade-appear {
+	from { opacity: 0;  }
+	to { opacity: 1;  }
+}
+@-o-keyframes fade-appear {
+	from { opacity: 0;  }
+	to { opacity: 1;  }
+}
 
 @keyframes appear-from-left {
 	0% {
@@ -427,8 +451,44 @@ nav .nav-links-mobile ul li {
 	80% { transform: translateX(0);  }
 	100% { opacity: initial; }
 }
+@-webkit-keyframes appear-from-left {
+	0% {
+		opacity: 0;
+		transform: translateX(-15px);
+	}
+	80% { transform: translateX(0);  }
+	100% { opacity: initial; }
+}
+@-moz-keyframes appear-from-left {
+	0% {
+		opacity: 0;
+		transform: translateX(-15px);
+	}
+	80% { transform: translateX(0);  }
+	100% { opacity: initial; }
+}
+@-o-keyframes appear-from-left {
+	0% {
+		opacity: 0;
+		transform: translateX(-15px);
+	}
+	80% { transform: translateX(0);  }
+	100% { opacity: initial; }
+}
 
 @keyframes nav-links-mobile-appear {
+	from { height: 0; }
+	to { height: 92.5vh; }
+}
+@-webkit-keyframes nav-links-mobile-appear {
+	from { height: 0; }
+	to { height: 92.5vh; }
+}
+@-moz-keyframes nav-links-mobile-appear {
+	from { height: 0; }
+	to { height: 92.5vh; }
+}
+@-o-keyframes nav-links-mobile-appear {
 	from { height: 0; }
 	to { height: 92.5vh; }
 }
