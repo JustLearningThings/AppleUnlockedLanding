@@ -7,11 +7,6 @@
 	--prices-green: #71BD56;
 
 	--font-tomorrow: 'Tomorrow', sans-serif;
-	/*--font-roboto: 'Roboto', serif;*/
-
-	/*remove this at the end*/
-	--contacts-bg-color: #1D2C3E;
-
 }
 
 html, body {
@@ -117,7 +112,6 @@ nav ul .active {
 	top: 7.45vh;
 	left: 0;
 	background-color: whitesmoke;
-	/*flex-basis: 100%;*/
 	width: 100vw;
 }
 
@@ -141,7 +135,6 @@ nav .nav-links-mobile ul li {
 .hamburger-icon {
 	width: 36px;
 	height: 28px;
-	/*display: flex;*/
 	flex-direction: column;
 	justify-content: space-between;
 	margin-right: 5%;
@@ -166,21 +159,16 @@ nav .nav-links-mobile ul li {
 	height: 100vh;
 	position: relative;
 	display: flex;
-	/*overflow: hidden;*/
 }
 
 #ellipse {
 	border-radius: 50%;
 	background: linear-gradient(to bottom right, #1053D4, #0775F6);
 	position: absolute;
-	/*width: 100vw;*/
 	width: 150vw;
 	height: 175vh;
-	/*height: calc(100vw / 1.17496);*/
-	/*left: -50vw;*/
 	left: -100vw;
 	top: -40vh;
-	/*top: -20vh;*/
 	z-index: -1;
 }
 
@@ -341,7 +329,6 @@ nav .nav-links-mobile ul li {
 
 #prices {
 	margin-top: 15%;
-	/*width: 85%;*/
 }
 
 #prices h2 {
